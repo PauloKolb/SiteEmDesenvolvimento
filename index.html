@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Projeto</title>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+    <!-- fim CSS bootstrap -->
+
+    <!-- CSS externo -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/style_2.css">
+
+    <!--pluguins-->
+    <!--  font -->
+    <link rel="stylesheet" href="plugins/themefisher-font/style.css">
+    <!-- bootstrap.min css -->
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Fonte google -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="barra">
+                <ul class="nav navbar-nav" id="uppercase">
+                    <li class="active"><a href="#"> PSICOLOGIA</a></li>
+                    <li>
+                        <a href="#thumbnail">Imagens<span></span></a>
+                    </li>
+                    <li><a href="#Agendamentos">Agendamentos</a></li>
+                    <li><a href="#Endereço">Endereço e Contato</a></li>
+                </ul>
+                <form class="navbar-form navbar-right">
+
+                    <!--                     <div class="form-group">
+                        <input type="text" name="form.control" placeholder="Digite aqui">
+                    </div>
+                    <button class="btn btn-danger">Buscar</button> CASO EU UTILIZE PARA FAZER BUSCA NA PÁGINA -->
+
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <header>
+
+        <div class="container banner-maior" class="img-responsive ">
+            <div class="banner-menor">
+
+                <h2 style="font-family: 'Pacifico', cursive; color:rgb(238, 226, 226);"
+                    class="animate__animated animate__fadeInDown">Psicóloga e
+                    psicopedagoga</h2>
+                <h3 class="animate__animated animate__fadeInDown">
+                    Adelaide Kolb
+                    <a href="https://api.whatsapp.com/send?phone=554199239883&amp;text=Ola%20Estava%20no%20Site%20da%20Sim%20Code%20e%20gostaria%20de%20mais%20informações"
+                        class="bt-whatsApp" target="_blank" style="height:30px; position:fixed; left: 
+                   155px; z-index:99999; bottom:8px;">
+                        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaWQ9IkxheWVyXzEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDEwMjQgMTAyNDsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDp1cmwoI1NWR0lEXzFfKTt9Cgkuc3Qxe2ZpbGw6I0ZGRkZGRjt9Cgkuc3Qye2ZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO2ZpbGw6I0ZGRkZGRjt9Cjwvc3R5bGU+PGc+PGxpbmVhckdyYWRpZW50IGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMC43MDcxIDAuNzA3MSAtMC43MDcxIDAuNzA3MSAyNTIuNTQ0NSAtMTMwLjkyNTQpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgaWQ9IlNWR0lEXzFfIiB4MT0iMjc2Ljc5NzEiIHgyPSI5OTkuMDgiIHkxPSItOTAuMjQ3OCIgeTI9IjYzMi4wMzUiPjxzdG9wIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6IzYwRkM3QyIvPjxzdG9wIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzRBQjE2MSIvPjwvbGluZWFyR3JhZGllbnQ+PHBhdGggY2xhc3M9InN0MCIgZD0iTTQ0MS40LDk5My4zTDMwLjUsNTgyLjRjLTM4LjktMzguOS0zOC45LTEwMi41LDAtMTQxLjRMNDQxLjQsMzAuMmMzOC45LTM4LjksMTAyLjUtMzguOSwxNDEuNCwwTDk5My42LDQ0MSAgIGMzOC45LDM4LjksMzguOSwxMDIuNSwwLDE0MS40TDU4Mi44LDk5My4zQzU0My45LDEwMzIuMiw0ODAuMywxMDMyLjIsNDQxLjQsOTkzLjN6Ii8+PHBhdGggY2xhc3M9InN0MSIgZD0iTTMwMS4xLDczMi43bDMyLjYtMTIxLjVjLTE4LjQtMzMuMy0yOC4xLTcwLjUtMjguMS0xMDguNGMwLTEyMy43LDEwMC42LTIyNC4zLDIyNC4zLTIyNC4zICAgYzEyMy43LDAsMjI0LjMsMTAwLjYsMjI0LjMsMjI0LjNjMCwxMjMuNy0xMDAuNiwyMjQuMy0yMjQuMywyMjQuM2MtMzcuMSwwLTczLjgtOS40LTEwNi42LTI3LjJMMzAxLjEsNzMyLjd6IE00MjkuMyw2NTQuNWw3LjcsNC42ICAgYzI4LjIsMTYuOCw2MC4zLDI1LjcsOTIuOSwyNS43YzEwMC4zLDAsMTgxLjktODEuNiwxODEuOS0xODEuOXMtODEuNi0xODEuOS0xODEuOS0xODEuOWMtMTAwLjMsMC0xODEuOSw4MS42LTE4MS45LDE4MS45ICAgYzAsMzMuMSw5LjIsNjUuNywyNi42LDk0LjNsNC43LDcuN2wtMTguMiw2Ny44TDQyOS4zLDY1NC41eiIvPjxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik02MTMuMyw1MzRjLTkuMi01LjUtMjEuMi0xMS43LTMyLjEtNy4yYy04LjMsMy40LTEzLjcsMTYuNS0xOS4xLDIzLjFjLTIuOCwzLjQtNi4xLDQtMTAuMywyLjIgICBjLTMxLjMtMTIuNS01NS4zLTMzLjQtNzIuNi02Mi4yYy0yLjktNC41LTIuNC04LDEuMS0xMi4yYzUuMi02LjEsMTEuOC0xMy4xLDEzLjItMjEuNGMxLjQtOC4zLTIuNS0xOC01LjktMjUuMyAgIGMtNC40LTkuNC05LjMtMjIuOS0xOC43LTI4LjJjLTguNy00LjktMjAuMS0yLjItMjcuOCw0LjFjLTEzLjMsMTAuOS0xOS44LDI3LjktMTkuNiw0NC44YzAuMSw0LjgsMC42LDkuNiwxLjgsMTQuMiAgIGMyLjcsMTEuMSw3LjgsMjEuNSwxMy42LDMxLjRjNC40LDcuNSw5LjEsMTQuNywxNC4yLDIxLjZjMTYuOCwyMi44LDM3LjYsNDIuNSw2MS43LDU3LjNjMTIuMSw3LjQsMjUsMTMuOSwzOC41LDE4LjMgICBjMTUuMSw1LDI4LjUsMTAuMiw0NC44LDcuMWMxNy4xLTMuMiwzMy45LTEzLjgsNDAuNi0zMC4yYzItNC45LDMtMTAuMywxLjktMTUuNEM2MzYuMiw1NDUuNSw2MjEuOSw1MzkuMiw2MTMuMyw1MzR6Ii8+PC9nPjwvc3ZnPg=="
+                            alt="" width="50px">
+                    </a>
+                </h3>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Section -->
+    <section class="container">
+        <div class="row">
+            <br>
+
+            <div class="panel-group col-md-12  id=" paineis-sobre data-anime="right">
+
+                <div class="panel panel-default">
+                    <div style="cursor: pointer;" class="panel-heading" data-toggle="collapse"
+                        data-target="#terceiro-paragrafo" data-parent="paineis-sobre">
+                        <h3 class=" panel-title">Meta</h3>
+                    </div>
+                    <div class="collapse" id="terceiro-paragrafo">
+                        <div class="panel-body">
+                            Minha responsabilidade é atingir o seu objetivo.
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel panel-default">
+                    <div style="cursor: pointer;" class="panel-heading" data-toggle="collapse"
+                        data-target="#primeiro-paragrafo" data-parent="paineis-sobre" data-anime="right">
+
+                        <h3 class="panel-title">Psicologia</h3>
+                    </div>
+                    <div class="collapse " id="primeiro-paragrafo">
+                        <div class="panel-body">
+                            Atender clinicamente em psicoterapia individual com estratégias práticas na família e
+                            sociedade.(crianças, adolescentes, adultos.)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div style="cursor: pointer;" class="panel-heading" data-toggle="collapse"
+                        data-target="#segundo-paragrafo" data-parent="paineis-sobre" data-anime="right">
+                        <h3 class="panel-title">Psicopedagoga</h3>
+                    </div>
+                    <div class="collapse" id="segundo-paragrafo">
+                        <div class="panel-body">
+                            Apoiar integralmente a criança e adolescente com dificuldade de aprendizagem.(Método
+                            especial)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- fim da Section -->
+    <hr>
+    <div class="container">
+        <div class="row text-center">
+            <h2></h2>
+
+            <div class="col-md-3 col-sm-3" id="thumbnail">
+                <a href="img/depoimentos/1.jpg" class="thumbnail">
+                    <img src="img/depoimentos/1.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="col-md-3 col-sm-3">
+                <a href="img/depoimentos/2.jpg" class=" thumbnail">
+                    <img src="img/depoimentos/2.jpg" alt=" ">
+                </a>
+            </div>
+
+            <div class="col-md-3 col-sm-3">
+                <a href="img/depoimentos/3.jpg" class=" thumbnail">
+                    <img src="img/depoimentos/3.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="col-md-3 col-sm-3">
+                <a href="img/depoimentos/20210427_210916.jpg" class="thumbnail">
+                    <img src="img/depoimentos/20210427_210916.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- SVG -->
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="well text-center">
+                        <div class="animate-svg ">
+
+                            <svg x="0px" y="0px" viewBox="0 0 457.56 105.87">
+                                <path fill="none"
+                                    d="M1422.83,1156.15a43.96,43.96,0,0,1-7.29.5,20.55,20.55,0,0,1-7.36-1.11c-1.89-.74-2.84-1.68-2.84-2.81,0-.94.62-1.76,1.87-2.46a9.541,9.541,0,0,1,4.75-1.06q4.155,0,13.3,4.1,1.875,0.825,2.76,1.23A18.178,18.178,0,0,1,1422.83,1156.15Zm14.36,1.53a24.773,24.773,0,0,0,5.36.67q11.955,0,19.54-11.25t7.59-29.41q0-16.875-7.83-26.57-7.815-9.7-21.35-9.7a38.069,38.069,0,0,0-16,3.48,37.678,37.678,0,0,0-13.01,9.76,30.489,30.489,0,0,0-5.24,8.47,23.856,23.856,0,0,0-1.85,9.05,15.622,15.622,0,0,0,3.84,10.84,12.477,12.477,0,0,0,9.7,4.28,14.961,14.961,0,0,0,6.41-1.47,22.157,22.157,0,0,0,6.07-4.33v-1.06a16.073,16.073,0,0,1-4.05,2.61,10.247,10.247,0,0,1-4.1.85q-4.92,0-8.14-4.51t-3.22-11.55a23.31,23.31,0,0,1,7.38-17.55,25.442,25.442,0,0,1,18.28-7.06,24.02,24.02,0,0,1,10.08,2.2,26.826,26.826,0,0,1,8.61,6.36,40.547,40.547,0,0,1,8.61,14.44,55.19,55.19,0,0,1,2.93,18.43q0,14.235-6.26,23.12-6.285,8.865-15.94,8.87a21.12,21.12,0,0,1-5.25-.73,41.716,41.716,0,0,1-6.3-2.26,31.709,31.709,0,0,0,9.85-10.57,27.625,27.625,0,0,0,3.16-13.39,109.43,109.43,0,0,0-.91-12.51c-0.6-5.1-.9-8.56-0.9-10.4a22.378,22.378,0,0,1,1.17-7.44,21.652,21.652,0,0,1,3.75-6.51v-1.05a33.245,33.245,0,0,0-9.17,11.51,34.326,34.326,0,0,0-2.96,14.62c0,1.6.15,4.26,0.47,7.97s0.47,6.62.47,8.73a30.156,30.156,0,0,1-1.61,10.58,19.71,19.71,0,0,1-5.19,7.53,64.889,64.889,0,0,0-9.73-4.02,24.589,24.589,0,0,0-6.74-1.02,16.992,16.992,0,0,0-7.41,1.46q-3.015,1.47-3.01,3.46,0,2.28,3.22,3.9a17.915,17.915,0,0,0,8.03,1.61,37.39,37.39,0,0,0,6.47-.62,68.04,68.04,0,0,0,8.06-2.02A54.922,54.922,0,0,0,1437.19,1157.68Zm50.97-11.25a14.991,14.991,0,0,1-.5-3.9,8.936,8.936,0,0,1,1.67-5.65,5.281,5.281,0,0,1,4.37-2.14,4.288,4.288,0,0,1,3.25,1.32,4.831,4.831,0,0,1,1.26,3.48,8.136,8.136,0,0,1-2.17,5.19,24.364,24.364,0,0,1-6.44,5.13A13.535,13.535,0,0,1,1488.16,1146.43Zm21.36,5.12q-4.98,4.4-9.96,4.4a10.243,10.243,0,0,1-5.1-1.35,13.488,13.488,0,0,1-4.28-3.92,39.743,39.743,0,0,0,8.88-6.42c1.93-2.01,2.9-3.96,2.9-5.83a4.652,4.652,0,0,0-1.73-3.69,6.588,6.588,0,0,0-4.42-1.47,13.091,13.091,0,0,0-9.41,3.75,12.17,12.17,0,0,0-3.89,9.09,11.062,11.062,0,0,0,3.63,8.61,13.7,13.7,0,0,0,9.55,3.28,21.246,21.246,0,0,0,13.3-4.66q6.045-4.65,10.96-14.03l-1.06-.41A44.684,44.684,0,0,1,1509.52,1151.55Zm14.18,4.4a9.689,9.689,0,0,0,2.55,1.64,6.728,6.728,0,0,0,2.61.53,11.9,11.9,0,0,0,2.87-.59,1.268,1.268,0,0,1,.41-0.12c1.09,0.2,2.04.35,2.84,0.44a16.7,16.7,0,0,0,2.02.15,20.33,20.33,0,0,0,12.74-4.83q6.135-4.845,10.81-13.86l-0.99-.41q-4.515,8.91-10.31,13.47a19.946,19.946,0,0,1-12.6,4.58,18.75,18.75,0,0,1-2.35-.24,0.653,0.653,0,0,1-.29-0.06,15.209,15.209,0,0,0,9.14-13.77,10.2,10.2,0,0,0-2.31-6.97,7.767,7.767,0,0,0-6.13-2.64,10.327,10.327,0,0,0-5.3,1.64,26.307,26.307,0,0,0-5.71,4.98v-4.68a3.452,3.452,0,0,1,.32-1.53,4.339,4.339,0,0,1,.97-1.23v-0.88l-7.15,2.05v46.12a15.111,15.111,0,0,1-.47,4.19,4.785,4.785,0,0,1-1.46,2.37v1l7.79-2.17v-29.18Zm0-14.12a13.68,13.68,0,0,1,3.49-3.66,6.392,6.392,0,0,1,3.6-1.26,5.7,5.7,0,0,1,4.8,2.31,10.336,10.336,0,0,1,1.76,6.42,13.393,13.393,0,0,1-2.34,8.08,6.88,6.88,0,0,1-5.69,3.23,6.954,6.954,0,0,1-2.72-.59,12.356,12.356,0,0,1-2.9-1.82v-12.71Zm55.84,8.85a14.53,14.53,0,0,0,2.81-8.38,8.164,8.164,0,0,0-2.96-6.51,11.288,11.288,0,0,0-7.59-2.52,16.753,16.753,0,0,0-11.68,4.6q-5.01,4.605-5.01,10.4a8.736,8.736,0,0,0,3.16,7.09,12.843,12.843,0,0,0,8.5,2.64c0.54,0,1-.01,1.37-0.03s0.75-.05,1.15-0.09q1.11,0.06,2.19.09t2.73,0.03a24.038,24.038,0,0,0,14.5-4.48q6.18-4.485,11.28-14.21l-1.06-.41q-4.74,9.255-10.6,13.65a21.967,21.967,0,0,1-13.54,4.4c-0.51,0-.95-0.01-1.34-0.03a9.3,9.3,0,0,1-1.24-.15A17.749,17.749,0,0,0,1579.54,1150.68Zm-5.27-12.57a16.361,16.361,0,0,1,1.99,8.58,11.732,11.732,0,0,1-1.99,7.24,6.38,6.38,0,0,1-5.34,2.61,6.147,6.147,0,0,1-5.42-3.29c-1.34-2.18-2.02-5.15-2.02-8.9a10.776,10.776,0,0,1,2.08-6.89,6.684,6.684,0,0,1,5.48-2.6A5.951,5.951,0,0,1,1574.27,1138.11Zm30.64-.74a5.932,5.932,0,0,1,.59-3.1,6.465,6.465,0,0,1,2.34-1.82v-0.88l-8.79,2.52v17.17a7.188,7.188,0,0,0,1.61,4.89,5.247,5.247,0,0,0,4.13,1.85q5.4,0,11.43-5.07a44.876,44.876,0,0,0,10.55-13.62l-1.06-.41a45.949,45.949,0,0,1-8.91,12.19q-4.92,4.62-8.61,4.62a2.587,2.587,0,0,1-2.55-1.55c-0.49-1.03-.73-3-0.73-5.89v-10.9Zm-4.86-19.36a3.337,3.337,0,0,0,2.34,1.08,3.57,3.57,0,0,0,2.52-1.05,3.211,3.211,0,0,0,.03-4.83,3.558,3.558,0,0,0-2.55-1.03,3.3,3.3,0,0,0-2.4,1.05,3.353,3.353,0,0,0-1.06,2.41A3.234,3.234,0,0,0,1600.05,1118.01Zm42.33,37.97a5.143,5.143,0,0,1-1.55,2.49v0.99l7.79-2.16v-13.83a48.575,48.575,0,0,1,5.83-5.57,6.967,6.967,0,0,1,3.78-1.76,2.83,2.83,0,0,1,2.29.85,4.457,4.457,0,0,1,.7,2.79v13.77a4.873,4.873,0,0,0,1.02,3.22,3.268,3.268,0,0,0,2.61,1.23q5.16,0,11.13-5.13a45.382,45.382,0,0,0,10.43-13.56l-1.05-.41a48.3,48.3,0,0,1-8.41,11.83q-4.545,4.515-7.7,4.52a1.79,1.79,0,0,1-1.67-1.06,7.183,7.183,0,0,1-.56-3.28v-12.95a4.408,4.408,0,0,0-1.41-3.37,5.082,5.082,0,0,0-3.63-1.32,11.616,11.616,0,0,0-6.09,2.26,37.328,37.328,0,0,0-7.27,6.53v-4.1a4.408,4.408,0,0,0-1.41-3.37,5.066,5.066,0,0,0-3.63-1.32,11.278,11.278,0,0,0-5.97,2.26,38.371,38.371,0,0,0-7.21,6.53v-6.85a3.452,3.452,0,0,1,.32-1.53,4.168,4.168,0,0,1,.97-1.23v-0.88l-7.15,2.05v18.17a15.727,15.727,0,0,1-.47,4.28,4.792,4.792,0,0,1-1.46,2.4v0.99l7.79-2.16v-13.83a52.565,52.565,0,0,1,5.8-5.6,6.643,6.643,0,0,1,3.69-1.73,2.83,2.83,0,0,1,2.29.85,4.457,4.457,0,0,1,.7,2.79v12.01A14.621,14.621,0,0,1,1642.38,1155.98Zm46.47-9.55a14.576,14.576,0,0,1-.5-3.9,8.876,8.876,0,0,1,1.67-5.65,5.263,5.263,0,0,1,4.36-2.14,4.288,4.288,0,0,1,3.25,1.32,4.831,4.831,0,0,1,1.26,3.48,8.174,8.174,0,0,1-2.16,5.19,24.6,24.6,0,0,1-6.45,5.13A13.881,13.881,0,0,1,1688.85,1146.43Zm21.35,5.12q-4.98,4.4-9.96,4.4a10.3,10.3,0,0,1-5.1-1.35,13.46,13.46,0,0,1-4.27-3.92,39.883,39.883,0,0,0,8.87-6.42c1.94-2.01,2.9-3.96,2.9-5.83a4.642,4.642,0,0,0-1.72-3.69,6.615,6.615,0,0,0-4.43-1.47,13.068,13.068,0,0,0-9.4,3.75,12.143,12.143,0,0,0-3.9,9.09,11.062,11.062,0,0,0,3.63,8.61,13.713,13.713,0,0,0,9.55,3.28,21.273,21.273,0,0,0,13.31-4.66q6.03-4.65,10.95-14.03l-1.05-.41A44.7,44.7,0,0,1,1710.2,1151.55Zm14.18,5.75v-13.83a54.411,54.411,0,0,1,5.8-5.6,6.7,6.7,0,0,1,3.69-1.73,2.83,2.83,0,0,1,2.29.85,4.393,4.393,0,0,1,.7,2.79v13.77a4.736,4.736,0,0,0,1.06,3.22,3.32,3.32,0,0,0,2.63,1.23q5.16,0,11.11-5.1a45.483,45.483,0,0,0,10.4-13.59l-1.06-.41a48.282,48.282,0,0,1-8.4,11.83q-4.545,4.515-7.71,4.52a1.844,1.844,0,0,1-1.73-1.06,7.343,7.343,0,0,1-.55-3.28v-12.95a4.408,4.408,0,0,0-1.41-3.37,5.1,5.1,0,0,0-3.63-1.32,11.306,11.306,0,0,0-5.98,2.26,38.371,38.371,0,0,0-7.21,6.53v-6.85a3.32,3.32,0,0,1,.33-1.53,4.125,4.125,0,0,1,.96-1.23v-0.88l-7.15,2.05v18.17a15.34,15.34,0,0,1-.47,4.28,4.792,4.792,0,0,1-1.46,2.4v0.99Zm36.74-6.04c0,2.78.39,4.59,1.17,5.45s2.15,1.29,4.1,1.29q5.925,0,11.84-4.92a45.013,45.013,0,0,0,10.61-13.77l-1.06-.41a46.129,46.129,0,0,1-8.96,12.3q-4.92,4.635-8.68,4.63a2.778,2.778,0,0,1-2.46-1.02c-0.47-.69-0.7-2.06-0.7-4.13v-26.14l8.09-3.4v-1.28l-8.09,3.57v-9.38a5.757,5.757,0,0,1,.62-2.98,6.78,6.78,0,0,1,2.43-2.05v-0.71l-8.91,2.4v15.24l-6.21,2.75v1.23l6.21-2.75v24.08Zm46.64-.58a14.459,14.459,0,0,0,2.81-8.38,8.156,8.156,0,0,0-2.95-6.51,11.324,11.324,0,0,0-7.59-2.52,16.759,16.759,0,0,0-11.69,4.6q-5.01,4.605-5.01,10.4a8.736,8.736,0,0,0,3.16,7.09,12.843,12.843,0,0,0,8.5,2.64q0.81,0,1.38-.03t1.14-.09c0.74,0.04,1.47.07,2.2,0.09s1.63,0.03,2.72.03a24.017,24.017,0,0,0,14.5-4.48q6.18-4.485,11.28-14.21l-1.05-.41q-4.755,9.255-10.61,13.65a21.958,21.958,0,0,1-13.53,4.4q-0.765,0-1.35-.03a9.356,9.356,0,0,1-1.23-.15A17.658,17.658,0,0,0,1807.76,1150.68Zm-5.27-12.57a16.266,16.266,0,0,1,1.99,8.58,11.667,11.667,0,0,1-1.99,7.24,6.374,6.374,0,0,1-5.33,2.61,6.124,6.124,0,0,1-5.42-3.29q-2.025-3.27-2.03-8.9a10.776,10.776,0,0,1,2.08-6.89,6.7,6.7,0,0,1,5.48-2.6A5.951,5.951,0,0,1,1802.49,1138.11Zm30.76-11.16-1.05-.3a70.937,70.937,0,0,1-6.45,14.94,43.15,43.15,0,0,1-8.55,10.55v1.29a37.893,37.893,0,0,0,6.56-6.86,60,60,0,0,0,5.56-9.2,31.442,31.442,0,0,1,7.5,6.39,10.013,10.013,0,0,1,2.47,6.21,6.014,6.014,0,0,1-1.79,4.46,6.138,6.138,0,0,1-4.48,1.75,5.691,5.691,0,0,1-4.6-2.16,11.173,11.173,0,0,1-2.2-6.1,26.465,26.465,0,0,0-3.46,3.28,5.071,5.071,0,0,0-1.35,2.11c0,0.71.99,1.66,2.96,2.87a11.416,11.416,0,0,0,6.01,1.82q0.465,0,.99-0.03c0.36-.02.71-0.05,1.06-0.09,1.02,0.04,1.95.07,2.81,0.09s1.64,0.03,2.35.03a21.382,21.382,0,0,0,13.33-4.72q6.12-4.71,10.92-13.97l-0.99-.41q-4.635,9.075-10.52,13.56a21.275,21.275,0,0,1-13.21,4.49h-1.47a13.1,13.1,0,0,0,5.13-4.6,11.312,11.312,0,0,0-.7-13.33,39.515,39.515,0,0,0-8.24-7.68Z"
+                                    transform="translate(-1404.28 -1081.41)" />
+                            </svg>
+                    </h1>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="img-responsive img-circle " src="img/2.jpg" id="imagem">
+                    <h3 id="h3">Marcos</h3>
+                    <p id="h3">Me ajudou muito com os meus problemas de ansiedade!Muito grato por tudo.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <img class="img-responsive img-circle" src="img/3.jpg" id="imagem">
+                    <h3 id="h3">Angela</h3>
+                    <p id="h3">Estou me sentindo bem mais tranquila e motivada para ir em busca do que quero.
+                        Terapia e
+                        Terapeuta Nota 10.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <img class="img-responsive img-circle" src="img/2.jpg" id="imagem">
+                    <h3 id="h3">Caio</h3>
+                    <p id="h3">Um espaço que proporciona acolhimento e bem estar para a escuta e partilha de
+                        histórias
+                        de vidas.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <hr id="Agendamentos">
+            <div class="title text-center">
+                <h2 data-anime="right">Agendamentos</h2>
+                <p data-anime="right">É com muito prazer que recebo você em meu consultório. Meu dever como Psicóloga
+                    é poder te ajudar em todos os seus objetivos. Ao enviar o seu e-mail, iremos começar uma nova
+                    maneira de pensar.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- /section title -->
+
+    <!-- Contact Details -->
+    <div class="container">
+        <div class="contact-details col-md-6 ">
+            <h3>Contato</h3>
+            <p>Whatsapp 41 99239893</p>
+            <ul class="contact-short-info">
+                <li>
+                    <i class="tf-ion-ios-home"></i>
+                    <span><b>Curitiba/Paraná</b></span>
+                </li>
+                <li>
+                    <i class="tf-ion-android-phone-portrait"></i>
+                    <span>Celular 41 999239883</span>
+                </li>
+                <li>
+                    <i class="tf-ion-android-globe"></i>
+                    <span>whatsapp: 41 99239883</span>
+                </li>
+                <li>
+                    <i class="tf-ion-android-mail"></i>
+                    <span>Email: adelaidekolb@gmail.com</span>
+                </li>
+            </ul>
+            <!-- Link Whatsapp -->
+
+        </div>
+
+        <!--  Form -->
+        <div class="contact-form col-md-6 ">
+            <form id="contact-form" method="post" role="form" action="https://formspree.io/f/xyylpzlg">
+                <!-- link para enviar e mail do formspree -->
+                <div class="form-group">
+                    <input type="text" placeholder="Seu nome" class="form-control" name="name" id="name" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" placeholder="Seu Email" class="form-control" name="email" id="email" required>
+                </div>
+
+                <div class="form-group">
+                    <textarea rows="6" placeholder="Messagem" class="form-control" name="message"
+                        id="message"></textarea>
+                </div>
+
+                <div id="cf-submit">
+                    <input type="submit" id="contact-submit" class="btn btn-transparent" value="Enviar">
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+        <!--Google Map-->
+        <section class="map">
+            <!-- Google Map -->
+
+            <div id="Endereço">
+                <iframe class="img-responsive"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.499116278369!2d-49.273530485761114!3d-25.455004140112887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce488d56efd19%3A0xb504a7963ff8b618!2sR.%20Dr.%20Raul%20Carneiro%20Filho%20-%20%C3%81gua%20Verde%2C%20Curitiba%20-%20PR%2C%2082590-300!5e0!3m2!1sen!2sbr!4v1616537542669!5m2!1sen!2sbr"
+                    width="100%" height="400" style="border:0"></iframe>
+            </div>
+
+        </section>
+        <!--====  fim do Google Map  ====-->
+    </div>
+
+    <!--====  Footer  ====-->
+    <div class="container-fluid">
+        <footer id="footer" class="bg-one">
+            <div class="top-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            <h3>Sobre</h3>
+                            <p>
+                                A psicologia tem como objetivo imediato a compreensão de grupos e indivíduos tanto pelo
+                                estabelecimento
+                                de princípios universais como pelo estudo de casos específicos, e tem,
+                                segundo alguns, como objetivo final o benefício geral da sociedade.
+                            </p>
+                        </div>
+                        <!-- End of .col-sm-3 -->
+
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            <ul>
+                                <li>
+                                    <h3>Outros Serviços</h3>
+                                </li>
+                                <li><a href="#">Graphic Design</a></li>
+                                <li><a href="#">Web Design</a></li>
+                                <li><a href="#">Web Development</a></li>
+                            </ul>
+                        </div>
+                        <!-- End of .col-sm-3 -->
+
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            <ul>
+                                <li>
+                                    <h3>Outros Links</h3>
+                                </li>
+                                <li><a href="#">Partners</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">FAQ’s</a></li>
+                                <li><a href="#">Badges</a></li>
+                            </ul>
+                        </div>
+                        <!-- End of .col-sm-3 -->
+
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            <ul>
+                                <li>
+                                    <h3>Redes Sociais</h3>
+                                </li>
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Twitter</a></li>
+                                <li><a href="#">Youtube</a></li>
+                                <li><a href="#">Instagram</a></li>
+                            </ul>
+                        </div>
+                        <!-- End of .col-sm-3 -->
+
+                    </div>
+                </div> <!-- end container -->
+            </div>
+            <div class="footer-bottom">
+                <h5>2021</h5>
+                <h6>Densenvolvido no curso técnico de informática SENAC <a href="">Estudado pelo aluno Paulo
+                        Kolb</a>
+                </h6>
+            </div>
+        </footer> <!-- end footer -->
+    </div> <!-- fim da Footer -->
+
+
+    <!-- Scripts =====================================-->
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+    <script src="plugins/google-map/gmap.js"></script>
+    <!-- pasta js para animação scroll  -->
+    <script src="js/script.js"></script>
+
+
+    <!--   <div class="container-fluid">
+        <footer>
+            <address id="endereço">
+                <div class="row">
+                    <div class="col-md-6 col-sm-3">
+                        <iframe class="img-responsive "
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.499116278369!2d-49.273530485761114!3d-25.455004140112887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce488d56efd19%3A0xb504a7963ff8b618!2sR.%20Dr.%20Raul%20Carneiro%20Filho%20-%20%C3%81gua%20Verde%2C%20Curitiba%20-%20PR%2C%2082590-300!5e0!3m2!1sen!2sbr!4v1616537542669!5m2!1sen!2sbr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                        </iframe>
+                    </div>
+                    <div class="col-md-6 col-sm-2" id="adress">
+                        <p>
+                        <h3 style="font-family: 'Pacifico', cursive;">Psicóloga e psicopedagoga</h3>
+                        Rua Dr. Raul, 3185, Hauer<br>
+                        Curitiba, PR<br>
+                        Tel: (11) 5571-2751 ou 5083-3884<br>
+                        E-mail: adelaidekolb@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </address>
+        </footer>
+    </div> -->
+
+    <!-- scripts para JS -->
+    <script src="code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        //<![CDATA[
+        (window.jQuery) || document.write('<script type="text/javascript" src="bootstrap/js/jquery.min.js"><\/script>');//]]>
+    </script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js">
+    </script>
+    <!-- JS Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- fim scripts para JS -->
+</body>
+
+</html>
